@@ -12,4 +12,4 @@ The callednumber is, obvious, the called party's number. The device parameter is
 
 ===Examples===
 
-`^555$=datacard/+380913012216;device=datacard0`
+`^555$=datacard/+381234567890;device=datacard0`
