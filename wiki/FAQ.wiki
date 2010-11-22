@@ -1,0 +1,6 @@
+#summary FAQ
+
+= FAQ =
+* Problem with audio quality
+
+_Try to check loaded kernel modules. You must have only *usbserial* molule loaded. If you has *options* module loaded to, try to unload it._
