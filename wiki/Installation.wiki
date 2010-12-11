@@ -24,3 +24,5 @@ make debug
 make install
 }}}
 _Use `./configure --with-yate=path` if you installed Yate in not default folder._
+
+*NOTE: Please disable call waiting and PIN futures, before use this module*
