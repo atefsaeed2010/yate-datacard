@@ -1,6 +1,6 @@
-#summary Installation
-
-= Installation =
+#summary datacard module installation
+=Eng=
+== Installation ==
 * Basic Yate Installation
 {{{
 svn checkout http://voip.null.ro/svn/yate/trunk yate
@@ -26,3 +26,31 @@ make install
 _Use `./configure --with-yate=path` if you installed Yate in not default folder._
 
 *NOTE: Please disable call waiting and PIN futures, before use this module*
+
+=Rus=
+== Установка ==
+* Базовая установка Yate
+{{{
+svn checkout http://voip.null.ro/svn/yate/trunk yate
+cd yate
+./autogen.sh
+./configure
+make debug
+make install
+}}}
+_Мы рекомендуем собирать с отладочной информацией(`make debug`), т.к. модуль yate-datacard сейчас находится в стадии альфа версии и наличие отладочной информации может помочь локализовать ошибки (в случае, если таковые возникнут)._
+
+За более подробной информацией по установке Yate обращайтесь на сайт http://yate.null.ro
+
+* Установка модуля
+{{{
+svn checkout http://yate-datacard.googlecode.com/svn/trunk/ yate-datacard-read-only
+cd yate-datacard-read-only
+./autogen.sh
+./configure
+make debug
+make install
+}}}
+_Используйте `./configure --with-yate=path` если Вы установили Yate в директорию, отличную от директории по умолчанию._
+
+*Замечание: Пожалуйста, отключите ожидание звонка и проверку PIN кода перед использованием модуля*
