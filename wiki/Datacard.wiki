@@ -5,6 +5,10 @@
 
 Yate channel driver for Huawei UMTS cards
 
+[http://code.google.com/p/yate-datacard/wiki/Installation#Eng Installation]
+
+[http://code.google.com/p/yate-datacard/wiki/FAQ#Eng FAQ]
+
 ===Routing===
 ====For outgoing calls====
 
@@ -32,6 +36,10 @@ The devicename is, the datacard name from datacard.conf(like 'datacard0').
 == Datacard модуль для Yate ==
 
 Модуль для Yate, позволяюжий работать с GSM/UMTS модемами Huawei.
+
+[http://code.google.com/p/yate-datacard/wiki/Installation#Rus Установка]
+
+[http://code.google.com/p/yate-datacard/wiki/FAQ#Rus FAQ]
 
 ===Настройка роутинга===
 ====Для исходящих звонков====
