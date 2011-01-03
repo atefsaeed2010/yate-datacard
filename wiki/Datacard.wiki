@@ -1,26 +1,60 @@
 #summary Summary of datacard module.
 
-= Datacard module =
+=Eng=
+== Datacard module ==
 
 Yate channel driver for Huawei UMTS cards
 
-==Routing==
-===For outgoing calls===
+===Routing===
+====For outgoing calls====
 
 Syntax: `datacard/callednumber;device=devicename`
 
-The callednumber is, obvious, the called party's number. The device parameter is mandatory and indicates the device to use. devicename must be the name of an active device configured in detacard.conf.
+The callednumber is, obvious, the called party's number. The device parameter is mandatory and indicates the device to use. devicename must be the name of an active device configured in datacard.conf.
 
 *Example:*
 
 `^555$=datacard/+381234567890;device=datacard0`
 
-===For incoming calls===
+====For incoming calls====
 
 Syntax: `${device}^devicename$=target`
 
 The devicename is, the datacard name from datacard.conf(like 'datacard0').
 
 *Example:*
+
+`${device}^datacard0$=sip/sip:123@192.168.1.1`
+
+----
+
+=Rus=
+== Datacard модуль для Yate ==
+
+Модуль для Yate, позволяюжий работать с GSM/UMTS модемами Huawei.
+
+===Настройка роутинга===
+====Для исходящих звонков====
+
+Синтаксис: `datacard/callednumber;device=devicename`
+
+Где 
+callednumber -- это номер, на который совершается звонок,
+device -- устройство, которое будет успользовано для совершения звонка. devicename должен быть идентификатором устройства из datacard.conf.
+
+*Пример:*
+
+Все звонки, приходящие на номер 555, будут перенаправлены на номер +381234567890 через модем с идентификатором datacard0:
+
+`^555$=datacard/+381234567890;device=datacard0`
+
+====Для входящих звонков====
+
+Синтаксис: `${device}^devicename$=target`
+
+Где devicename это идентификатор устройства из datacard.conf.
+
+*Пример:*
+Все звонки, приходящие на модем с идентификатором datacard0, будут перенаправлены на номер 123 на сервер с адресом 192.168.1.1 используя протокол SIP:
 
 `${device}^datacard0$=sip/sip:123@192.168.1.1`
