@@ -1,0 +1,4 @@
+#summary Summary for datacard module
+= Datacard модуль для Yate =
+
+Модуль для Yate, позволяющий работать с GSM/UMTS модемами Huawei.

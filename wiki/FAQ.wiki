@@ -1,14 +1,6 @@
-#summary FAQ
-= FAQ =
+#summary Frequently asked questions
+= Frequently Asked Questions =
 
-==Eng==
-* Problem with audio quality
+== Problem with audio quality ==
 
 _Try to check loaded kernel modules. You must have only *usbserial* molule loaded. If you has *options* module loaded, unload it._
-
-==Rus==
-* Проблема с качеством аудио(сторонние шумы и т.п.)
-
-_Попробуйте проверить загруженные модули ядра. Для корректной работы модуля необходимо, чтобы был загружен только *usbserial*. Если модуль *options* тоже загружен, попробуйте выгрузить его._
-
-----

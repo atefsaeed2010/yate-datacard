@@ -1,7 +1,7 @@
 #summary Wiki index
   * [http://code.google.com/p/yate-datacard/wiki/Summary Summary]
   * Instalation and Setup
-    * [http://code.google.com/p/yate-datacard/wiki/Instalation Instalation]
+    * [http://code.google.com/p/yate-datacard/wiki/Installation Installation]
     * [http://code.google.com/p/yate-datacard/wiki/Routing Routing rules]
   * Messages
     * datacard.sms

@@ -1,0 +1,4 @@
+#summary Summary of datacard module.
+= Datacard module for Yate =
+
+Yate channel driver for Huawei UMTS cards
