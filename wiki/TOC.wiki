@@ -1,20 +1,9 @@
 #summary Wiki index
-  * [http://code.google.com/p/yate-datacard/wiki/Summary_EN Summary]
+  * [http://code.google.com/p/yate-datacard/wiki/Summary Summary]
   * Instalation and Setup
-    * [http://code.google.com/p/yate-datacard/wiki/Instalation_EN Instalation]
-    * [http://code.google.com/p/yate-datacard/wiki/Routing_EN Routing rules]
+    * [http://code.google.com/p/yate-datacard/wiki/Instalation Instalation]
+    * [http://code.google.com/p/yate-datacard/wiki/Routing Routing rules]
   * Messages
     * datacard.sms
     * datacard.ussd
-  * [http://code.google.com/p/yate-datacard/wiki/FAQ_EN FAQ]
-
-----
-
- * [http://code.google.com/p/yate-datacard/wiki/Summary_RU Краткое описание]
- * Установка и Настройка
-  * [http://code.google.com/p/yate-datacard/wiki/Instalation_RU Установка]
-  * [http://code.google.com/p/yate-datacard/wiki/Routing_RU Настройка роутинга]
- * Сообщения
-  * datacard.sms
-  * datacard.ussd
- * [http://code.google.com/p/yate-datacard/wiki/FAQ_RU FAQ]
+  * [http://code.google.com/p/yate-datacard/wiki/FAQ FAQ]
