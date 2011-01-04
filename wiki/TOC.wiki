@@ -1,13 +1,12 @@
 #summary Wiki index
-  * A list
-  * Of bulleted items
-    # This is a numbered sublist
-    # Which is done by indenting further
-  * And back to the main bulleted list
+  * Summary
+  * Instalation and Setup
+    * Instalation
+    * Routing rules
+  * FAQ
 
- * This is also a list
- * With a single leading space
- * Notice that it is rendered
-  # At the same levels
-  # As the above lists.
- * Despite the different indentation levels.
+  * Краткое описание
+  * Установка и Настройка
+    * Установка
+    * Настройка роутинга
+  * FAQ
