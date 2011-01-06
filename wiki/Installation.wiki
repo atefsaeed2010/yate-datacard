@@ -24,4 +24,4 @@ make install
 }}}
 _Use `./configure --with-yate=path` if you installed Yate in not default folder._
 
-*NOTE: Please disable call waiting and PIN futures, before use this module*
+*NOTE: Please disable call waiting and PIN futures for SIM card, before use this module*
