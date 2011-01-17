@@ -34,4 +34,5 @@ DTMF detection on incoming calls
 DTMF detection on outgoing calls
 
 `^555$=;tonedetect_out=yes`
- 
+
+_Note: module tonedetect.yate must be installed and enabled_
