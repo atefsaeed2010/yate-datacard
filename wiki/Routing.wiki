@@ -28,7 +28,10 @@ The request for attaching a DTMF detector can be specified from routing, where a
 
  
 DTMF detection on incoming calls
+
 `${device}^datacard0$=;tonedetect_in=yes`
+
 DTMF detection on outgoing calls
+
 `^555$=;tonedetect_out=yes`
  
