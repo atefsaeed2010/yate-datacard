@@ -19,3 +19,16 @@ The devicename is, the datacard name from datacard.conf(like 'datacard0').
 *Example:*
 
 `${device}^datacard0$=sip/sip:123@192.168.1.1`
+
+== DTMF detection ==
+
+Since modem does not support DTMF detection, we advise you to use Yate tonedetect module.
+
+The request for attaching a DTMF detector can be specified from routing, where a boolean true value stands equivalent to tone/* :
+
+ 
+DTMF detection on incoming calls
+`${device}^datacard0$=;tonedetect_in=yes`
+DTMF detection on outgoing calls
+`^555$=;tonedetect_out=yes`
+ 
