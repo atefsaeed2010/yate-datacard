@@ -7,3 +7,4 @@
     * datacard.sms
     * datacard.ussd
   * [http://code.google.com/p/yate-datacard/wiki/FAQ FAQ]
+<wiki:gadget url="http://www.ohloh.net/p/487769/widgets/project_basic_stats.xml" height="220" border="1"/>
