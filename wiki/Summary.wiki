@@ -26,5 +26,6 @@ card's) balance when you call or send/receive SMS messages via modem.
 _If you find some kind of bug, please write an issue or send e-mail to project owners._
 
 Tested with Huawei E1550 on Debian GNU/Linux 5.0.6 (lenny).
+Also tested on Debian GNU/Linux 7.0 (wheezy)
 
 <wiki:gadget url="http://www.ohloh.net/p/487769/widgets/project_basic_stats.xml" height="220" border="1"/>
